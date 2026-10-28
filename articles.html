@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WeatherVista | Weather Articles</title><link rel="stylesheet" href="css/style.css"></head>
+<body data-page="articles">
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">☁</span><span>Weather<span>Vista</span></span></a><button class="nav-toggle">☰</button><nav class="nav"><a href="index.html">Dashboard</a><a href="forecast.html">Forecast</a><a href="cities.html">Cities</a><a class="active" href="articles.html">Articles</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></header>
+<main class="container inner-page">
+<section class="page-banner"><span class="eyebrow">WEATHER JOURNAL</span><h1>Stories behind the forecast</h1><p>Simple explainers to help you understand changing weather patterns.</p></section>
+<section class="section article-grid">
+<article class="article-card featured"><div class="article-visual storm">⛈️</div><div class="article-body"><span class="tag">Climate</span><h2>Why thunderstorms can develop so quickly</h2><p>Thunderstorms form when warm, moist air rises rapidly into unstable atmosphere. Learn the basic ingredients behind sudden summer storms.</p><button class="read-btn" data-article="storm">Read insight →</button></div></article>
+<article class="article-card"><div class="article-visual heat">🌡️</div><div class="article-body"><span class="tag">Safety</span><h3>Understanding heat-wave alerts</h3><p>Temperature alone does not tell the whole story. Duration, humidity and nighttime cooling can affect heat stress.</p><button class="read-btn" data-article="heat">Read insight →</button></div></article>
+<article class="article-card"><div class="article-visual monsoon">🌧️</div><div class="article-body"><span class="tag">Seasonal</span><h3>The science of monsoon rainfall</h3><p>Seasonal heating differences can reverse large-scale wind patterns and help drive monsoon circulation.</p><button class="read-btn" data-article="monsoon">Read insight →</button></div></article>
+<article class="article-card"><div class="article-visual wind">🌬️</div><div class="article-body"><span class="tag">Basics</span><h3>What wind speed really means</h3><p>Wind is moving air, and its speed can change quickly around weather systems, terrain and buildings.</p><button class="read-btn" data-article="wind">Read insight →</button></div></article>
+</section>
+<div id="articleModal" class="modal" aria-hidden="true"><div class="modal-box"><button class="modal-close">×</button><span id="modalTag" class="tag"></span><h2 id="modalTitle"></h2><p id="modalText"></p><div class="modal-fact" id="modalFact"></div></div></div>
+</main><footer class="footer"><div><strong>WeatherVista</strong><span>Educational weather articles for everyday planning.</span></div><span>© 2026</span></footer>
+<script src="js/app.js"></script></body></html>
