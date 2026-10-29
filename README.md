@@ -124,7 +124,7 @@ API availability and response data may affect the website's live weather feature
 ## 👨‍💻 Author
 
 **Your Name**  
-MCA Student
+Sushmita Rawat
 
 GitHub: [Your GitHub Profile](https://github.com/YOUR-USERNAME)
 
